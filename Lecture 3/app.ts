@@ -66,21 +66,35 @@
 
 
 
-type userProfile = {
-    name:string;
-    email:string;
-    age:number
-}
+// type userProfile = {
+//     name:string;
+//     email:string;
+//     age:number
+// }
 
-const user:userProfile={
-    name:"Mohd Hasan",
-    email:"01mohdhasan11@gmail.com",
-    age:24
-}
+// const user:userProfile={
+//     name:"Mohd Hasan",
+//     email:"01mohdhasan11@gmail.com",
+//     age:24
+// }
 
-function greetUser(profile:userProfile):string{
-    return `Hi I am ${profile.name}. My age is ${profile.age} and my email is ${profile.email}`
-}
+// function greetUser(profile:userProfile):string{
+//     return `Hi I am ${profile.name}. My age is ${profile.age} and my email is ${profile.email}`
+// }
 
-console.log(greetUser(user))
+// console.log(greetUser(user))
+
+
+
+
+
+// type combinable = number|string|boolean
+
+// function combine(first_name:combinable,second_name:combinable):string{
+//     return `My name is ${first_name} ${second_name}`
+// }
+
+// console.log(combine("Mohd","Hasan"))
+
+
 

@@ -51,22 +51,42 @@
 // console.log(person)
 // person.product[1]=10      will give error
 // ENUMS in TypeScript
+// TypeScript enum: TypeScript enums allow us to define or declare a set of named constants i.e. a collection of related values which could either be in the form of a string or number or any other data type.
+// Enums generally accept default values in numbers (starting from 0).
+// Although a user could change the values provided in enums according to the requirements.
+// 1) Numeric Enums
 // enum cardinalDirections {
 //     North=1,
 //     East,
 //     West,
 //     South
 // }
+// console.log(cardinalDirections)
+// Output
+// {
+// 1: "North"
+// 2: "East"
+// 3: "West"
+// 4: "South"
+// East: 2
+// North: 1
+// South: 4
+// West: 3
+// }
 // console.log(cardinalDirections.North)  //op: 1
 // console.log(cardinalDirections.East)   //op: 2
 // console.log(cardinalDirections.West)   //op: 3
 // console.log(cardinalDirections.South)  //op: 4
+// 2). String Enums
 // enum cardinalDirections {
 //     North="North",
 //     South="South",
 //     East="East",
 //     West="West",
 // }
+// console.log(cardinalDirections)
+// Output
+// {North: 'North', South: 'South', East: 'East', West: 'West'}
 // console.log(cardinalDirections.East)
 // console.log(cardinalDirections.North)
 // console.log(cardinalDirections.West)
@@ -78,8 +98,9 @@ var StatusCodes;
     StatusCodes[StatusCodes["Accepted"] = 202] = "Accepted";
     StatusCodes[StatusCodes["BadRequest"] = 203] = "BadRequest";
 })(StatusCodes || (StatusCodes = {}));
-// logs 404
-console.log(StatusCodes.NotFound);
-// logs 203
-console.log(StatusCodes.BadRequest);
-console.log(StatusCodes.Success);
+console.log(StatusCodes);
+//   // logs 404
+//   console.log(StatusCodes.NotFound);
+//   // logs 203
+//   console.log(StatusCodes.BadRequest);
+//   console.log(StatusCodes.Success)
