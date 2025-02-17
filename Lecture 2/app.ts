@@ -48,6 +48,7 @@
 
 
 // Tuple: It is a fixed size ordered array
+// In TypeScript, a tuple is a data structure that allows you to store a fixed-size collection of elements of different types. Tuples are similar   to arrays, but they have a specific number of elements, and each element can have a different type
 
 // const person:{
 //     name:string;
