@@ -27,12 +27,12 @@
 
 
 
-interface KeyValuePair <K,V>{
-    key:K,
-    value:V
-}
+// interface KeyValuePair <K,V>{
+//     key:K,
+//     value:V
+// }
 
-let part1:KeyValuePair<number,string>={key:10,value:"Hello"}
-console.log(part1)
-let part2:KeyValuePair<string,number>={key:"Hasan",value:1000}
-console.log(part2)
+// let part1:KeyValuePair<number,string>={key:10,value:"Hello"}
+// console.log(part1)
+// let part2:KeyValuePair<string,number>={key:"Hasan",value:1000}
+// console.log(part2)
